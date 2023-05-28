@@ -1,0 +1,123 @@
+@import url('./responsive.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header .navbar-collapse {
+    width: auto;
+}
+
+header {
+    width: 100%;
+    background-color: transparent;
+}
+
+header .navbar-brand {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+header .nav-link {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+header .nav-link {
+    border-bottom: 2px solid transparent;
+}
+
+header .nav-link:hover {
+    border-bottom: 2px solid #0b5ed7;
+}
+
+#slider h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#slider p {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+#slider button {
+    margin: 0;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#brands .col {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#brands img {
+    width: 150px;
+}
+
+#informations {
+    width: 100%;
+    background-color: #0d6efd;
+    margin-top: 80px;
+}
+
+#informations-container {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+#informations-container .col {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#informations-container h1 {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#informations-container p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#informations-container img {
+    width: 60px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+#services h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#services p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #222f42;
+    padding-bottom: 15px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: black solid 2px;
+    cursor: pointer;
+}
